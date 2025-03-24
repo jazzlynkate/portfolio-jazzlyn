@@ -8,7 +8,7 @@ const getBlogPost = (slug: string) => {
   return {
     title: "Typography in Web Design: Best Practices",
     date: "March 1, 2025",
-    author: "John Doe",
+    author: "Jazzlyn",
     category: "Design",
     image: "/placeholder.svg?height=600&width=1200",
     content: `

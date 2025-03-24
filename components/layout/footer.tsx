@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <Link href="/" className="font-playfair text-3xl font-bold tracking-tight">
-              Jane<span className="text-muted-foreground">Doe</span>
+              Jazzlyn<span className="text-muted-foreground">Kate</span>
             </Link>
             <p className="mt-4 text-muted-foreground">
-              Graphic Designer & Visual Artist specializing in brand identity, UI/UX design, and multimedia content.
+              Designer focused on social media marketing materials, UI/UX design, and other multimedia content.
             </p>
           </div>
 
@@ -77,7 +77,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} Jane Doe. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Jazzlyn Kate. All rights reserved.</p>
         </div>
       </div>
     </footer>

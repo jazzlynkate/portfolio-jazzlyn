@@ -50,8 +50,8 @@ const projects = [
   },
   {
     id: 6,
-    title: "Organic Honey Jar Design",
-    description: "Product packaging design for an organic honey brand.",
+    title: "Organic Strawberry Jar Design",
+    description: "Product packaging design for an organic strawberry brand.",
     category: "Social Media & Marketing Graphics",
     subcategory: "Product Design (Jar Design)",
     image: "/placeholder.svg?height=600&width=800",

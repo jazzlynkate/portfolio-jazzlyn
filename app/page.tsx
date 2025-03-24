@@ -12,11 +12,11 @@ export default function HomePage() {
           <div className="space-y-8">
             <div>
               <p className="text-muted-foreground text-lg mb-2 font-medium">Hello, I'm</p>
-              <h1 className="heading-xl mb-4">Jane Doe</h1>
-              <h2 className="heading-md text-muted-foreground">Graphic Designer & Visual Artist</h2>
+              <h1 className="heading-xl mb-4">Jazzlyn Kate</h1>
+
             </div>
             <p className="body-lg text-muted-foreground max-w-md">
-              I create compelling visual identities, engaging UI/UX designs, and captivating photo and video content.
+            — passionate about design and crafting solutions. I love working on projects that help businesses and individuals create meaningful and engaging digital experiences.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="text-lg px-8">
@@ -33,7 +33,7 @@ export default function HomePage() {
             <div className="relative z-10 aspect-square bg-muted rounded-2xl overflow-hidden border border-border">
               <Image
                 src="/placeholder.svg?height=600&width=600"
-                alt="Jane Doe"
+                alt="Jazzlyn Kate"
                 width={600}
                 height={600}
                 className="w-full h-full object-cover"
@@ -62,7 +62,7 @@ export default function HomePage() {
           <Link href="/graphic-branding" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/design/sour-grapes-cover-vinyl.png"
                 alt="Graphic & Branding Design"
                 width={800}
                 height={600}
@@ -79,7 +79,7 @@ export default function HomePage() {
           <Link href="/ui-ux-web" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/design/web-design-cover.png"
                 alt="UI/UX & Web Design"
                 width={800}
                 height={600}
@@ -87,7 +87,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-3xl font-bold text-white mb-2">UI/UX & Web Design</h3>
-                <p className="text-white/80">Case studies, components, wireframes, and prototypes</p>
+                <p className="text-white/80">Wireframes, web, and app page designs.</p>
               </div>
             </div>
           </Link>
@@ -96,7 +96,7 @@ export default function HomePage() {
           <Link href="/photography" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/design/photography-cover.png"
                 alt="Photography"
                 width={800}
                 height={600}
@@ -113,7 +113,7 @@ export default function HomePage() {
           <Link href="/video-motion" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/design/video-cover.png"
                 alt="Video Editing & Motion Graphics"
                 width={800}
                 height={600}
@@ -255,13 +255,13 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-y-8 gap-x-16">
               {[
                 "Adobe Photoshop",
-                "Adobe Illustrator",
-                "Adobe InDesign",
-                "Adobe XD",
-                "Figma",
                 "Adobe Lightroom",
-                "Adobe Premiere Pro",
+                "Figma",
+                "Canva",
+                "Adobe Illustrator",
                 "Adobe After Effects",
+                "Adobe Premiere Pro",
+                "Adobe InDesign",
               ].map((skill, index) => (
                 <div key={skill} className="border-b border-border pb-2 group">
                   <div className="flex items-baseline">
@@ -289,20 +289,18 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-2xl leading-relaxed mb-10">
-              I'm always open to new opportunities and collaborations. Feel free to reach out!
+            I'm always open to new opportunities to learn, grow, and expand my skills.
+            <br />
+            Feel free to reach out!
             </p>
             <div className="flex flex-col gap-6">
               <a href="#" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
                 <Mail className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">jane.doe@example.com</span>
+                <span className="link-underline">jazzlyn.aquino.07@gmail.com</span>
               </a>
               <a href="#" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
                 <Linkedin className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">linkedin.com/in/janedoe</span>
-              </a>
-              <a href="#" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
-                <Twitter className="h-6 w-6 group-hover:scale-110 transition-transform" />
-                <span className="link-underline">twitter.com/janedoe</span>
+                <span className="link-underline">linkedin.com/in/jazzlyn-a-ab89772b3</span>
               </a>
             </div>
           </div>

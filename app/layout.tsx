@@ -17,8 +17,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "John Doe | Full Stack Developer",
-  description: "Portfolio of John Doe, a Full Stack Developer specializing in React, Next.js, and Node.js",
+  title: "Jazzlyn Kate | Portfolio",
+  description: "Portfolio of Jazzlyn Kate, a designer focused on social media marketing materials, UI/UX design, and other multimedia content.",
     generator: 'v0.dev'
 }
 
