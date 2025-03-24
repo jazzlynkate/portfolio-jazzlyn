@@ -161,7 +161,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-lg">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden transition-transform group-hover:scale-105 duration-500">
                   <Image
-                    src="/placeholder.svg?height=270&width=480"
+                    src="/images/design/stickers-cover.png"
                     alt="Brand Identity Project"
                     width={480}
                     height={270}
@@ -195,7 +195,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-lg md:col-start-1">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden transition-transform group-hover:scale-105 duration-500">
                   <Image
-                    src="/placeholder.svg?height=270&width=480"
+                    src="/images/design/quotes-cover.png"
                     alt="UI/UX Project"
                     width={480}
                     height={270}
@@ -229,7 +229,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-lg">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden transition-transform group-hover:scale-105 duration-500">
                   <Image
-                    src="/placeholder.svg?height=270&width=480"
+                    src="/images/design/freshlight-cover.png"
                     alt="Video Project"
                     width={480}
                     height={270}

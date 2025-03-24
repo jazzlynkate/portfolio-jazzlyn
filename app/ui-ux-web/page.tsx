@@ -9,7 +9,7 @@ const projects = [
     description: "UI/UX design for a beauty brand's landing page, focusing on conversion and user experience.",
     category: "Case Studies & Components",
     subcategory: "Beauty Brand Landing Page",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/web-design-cover.png",
     slug: "beauty-brand",
   },
   {
@@ -33,10 +33,10 @@ const projects = [
   {
     id: 4,
     title: "Resume Scorer Wireframe",
-    description: "Low-fidelity wireframes for a resume scoring application with user flow and interaction design.",
+    description: "Mid-fidelity wireframes for a resume scoring web application.",
     category: "Wireframes & Prototypes",
     subcategory: "Resume Scorer Wireframe",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/wireframe-cover.png",
     slug: "resume-scorer",
   },
 ]
@@ -165,7 +165,7 @@ export default function UiUxWebPage() {
         {/* Wireframes & Prototypes Section */}
         <div>
           <h2 className="heading-lg mb-10 relative">
-            Wireframes & Prototypes
+            Wireframes
             <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">02</span>
           </h2>
 
