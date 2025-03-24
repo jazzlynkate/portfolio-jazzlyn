@@ -60,18 +60,6 @@ export function Footer() {
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Instagram className="h-6 w-6" />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Youtube className="h-6 w-6" />
-                <span className="sr-only">YouTube</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Twitter className="h-6 w-6" />
-                <span className="sr-only">Twitter</span>
-              </a>
             </div>
           </div>
         </div>
