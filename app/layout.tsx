@@ -28,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+    <html lang="en" className="scroll-smooth w-[100vw] overflow-x-hidden" suppressHydrationWarning>
+      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased w-[100vw] overflow-x-hidden`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="min-h-screen bg-background text-foreground">
             <Navigation />

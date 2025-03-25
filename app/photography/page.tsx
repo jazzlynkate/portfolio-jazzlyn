@@ -11,17 +11,17 @@ const projects = [
       "Lightroom editing for predebut photoshoots, enhancing colors and creating a dreamy atmosphere.",
     category: "Lightroom Editing",
     subcategory: "Predebut Photos",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/photography/photog-debut-cover.png",
     slug: "predebut-photography",
   },
   {
     id: 2,
     title: "Prenup Wedding Photography",
     description:
-      "Prenup wedding photo editing with a focus on romantic tones and natural lighting enhancement.",
+      "Prenup wedding photo editing, enhancing images captured in meaningful locations that reflect the couple's journey.",
     category: "Lightroom Editing",
     subcategory: "Prenup Wedding Photos",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/photography/photog-wed-cover.png",
     slug: "prenup-photography",
   },
 ];
@@ -63,14 +63,13 @@ export default function PhotographyPage() {
                     View Project
                   </Link>
                 </Button>
-
                 <Image
-                  src="/images/design/photography-cover.png"
-                  alt={project.title}
-                  width={800}
-                  height={450}
-                  className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
-                />
+                    src={project.image}
+                    alt={project.title}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
               </div>
             ))}
           </div>

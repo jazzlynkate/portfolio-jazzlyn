@@ -87,7 +87,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-3xl font-bold text-white mb-2">UI/UX & Web Design</h3>
-                <p className="text-white/80">Wireframes, web, and app page designs.</p>
+                <p className="text-white/80">Wireframes, web, and app page designs</p>
               </div>
             </div>
           </Link>
