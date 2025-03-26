@@ -298,7 +298,7 @@ export default function HomePage() {
                 <Mail className="h-6 w-6 group-hover:scale-110 transition-transform" />
                 <span className="link-underline">katejazzlyn@gmail.com</span>
               </a>
-              <a href="#" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
+              <a href="https://www.linkedin.com/in/jazzlyn-kate/" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
                 <Linkedin className="h-6 w-6 group-hover:scale-110 transition-transform" />
                 <span className="link-underline">linkedin.com/in/jazzlyn-kate</span>
               </a>

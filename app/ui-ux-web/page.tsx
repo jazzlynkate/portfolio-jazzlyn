@@ -9,7 +9,7 @@ const projects = [
     description: "UI/UX design for a beauty brand's landing page, focusing on conversion and user experience.",
     category: "Case Studies & Components",
     subcategory: "Beauty Brand Landing Page",
-    image: "/images/design/web-design-cover.png",
+    image: "/images/design/web-design-cover-1.png",
     slug: "beauty-brand",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     description: "Mobile app interface design for traffic enforcers to streamline violation reporting.",
     category: "Case Studies & Components",
     subcategory: "Traffic Enforcer App UI",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/ui-ux-design/ctmeu-app-cover.png",
     slug: "traffic-enforcer-app",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     description: "Mid-fidelity wireframes for a resume scoring web application.",
     category: "Wireframes & Prototypes",
     subcategory: "Resume Scorer Wireframe",
-    image: "/images/design/wireframe-cover.png",
+    image: "/images/design/wireframe/wireframe-cover.png",
     slug: "resume-scorer",
   },
 ]

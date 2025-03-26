@@ -66,8 +66,7 @@ export default function PhotographyPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-6">Predebut Photography</h1>
           <p className="body-lg text-muted-foreground">
-            Capturing and enhancing special moments through photo editing and
-            color grading.
+          Bringing out the elegance of the debutant and the scenic beauty of the venue through editing.
           </p>
         </div>
 

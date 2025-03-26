@@ -17,7 +17,7 @@ export default function PhotographyPage() {
           </p>
         </div>
 
-        {/*Resume Scorer Section */}
+        {/*Resume Scorer Wireframe Section */}
         <div>
           {Array(8).fill(null).map((_, index) => (
             <Image

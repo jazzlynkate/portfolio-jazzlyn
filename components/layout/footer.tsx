@@ -56,7 +56,7 @@ export function Footer() {
                 <Mail className="h-6 w-6" />
                 <span className="sr-only">Email</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://www.linkedin.com/in/jazzlyn-kate/" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </a>
