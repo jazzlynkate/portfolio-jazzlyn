@@ -19,7 +19,6 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Jazzlyn Kate | Portfolio",
   description: "Portfolio of Jazzlyn Kate, a designer focused on social media marketing materials, UI/UX design, and other multimedia content.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

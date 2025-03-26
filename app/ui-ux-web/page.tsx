@@ -27,7 +27,7 @@ const projects = [
     description: "UI design for a property listing app's browsing page with filtering and sorting capabilities.",
     category: "Case Studies & Components",
     subcategory: "Listing App (Browsing Page)",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/design/ui-ux-design/listing-app-cover.png",
     slug: "listing-app",
   },
   {
@@ -103,7 +103,7 @@ export default function UiUxWebPage() {
 
           {/* Traffic Enforcer App UI */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8">Traffic Enforcer App UI</h3>
+            <h3 className="text-2xl font-bold mb-8">Traffic Enforcer App</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {groupedProjects["Case Studies & Components"]["Traffic Enforcer App UI"]?.map((project) => (
                 <Link

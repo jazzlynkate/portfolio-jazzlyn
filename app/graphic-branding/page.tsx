@@ -8,78 +8,58 @@ export default function GraphicBrandingPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-6">Graphic & Branding Design</h1>
           <p className="body-lg text-muted-foreground">
-            Creating visual identities and marketing materials that communicate
-            brand values and captivate audiences.
+            Some of my work includes projects for non-profit organizations,
+            church social media page, commisioned works, and personal projects
+            created for fun!
           </p>
         </div>
 
         {/* Brand Identity & Print Section */}
-        <div className="mb-24">
-          <h2 className="heading-lg mb-10 relative">
-            Brand Identity & Print
-            <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">
-              01
-            </span>
-          </h2>
-
+        <div className="mb-16">
           <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8">Logos</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="group block bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="aspect-square bg-muted overflow-hidden">
-                  <Image
-                    src="/images/design/logos/PNK-Logo-2.png"
-                    alt="ewan"
-                    width={800}
-                    height={800}
-                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h4 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                    Ewan na title
-                  </h4>
-                  <p className="text-muted-foreground">Ewan na description</p>
-                </div>
-              </div>
-              <div className="group block bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="aspect-square bg-muted overflow-hidden">
-                  <Image
-                    src="/images/design/logos/PNK-Logo.png"
-                    alt="ewan"
-                    width={800}
-                    height={800}
-                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h4 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                    Ewan na title
-                  </h4>
-                  <p className="text-muted-foreground">Ewan na description</p>
-                </div>
-              </div>
-              <div className="group block bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="aspect-square bg-muted overflow-hidden">
-                  <Image
-                    src="/images/design/logos/PNK-Logo-1.png"
-                    alt="ewan"
-                    width={800}
-                    height={800}
-                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h4 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                    Ewan na title
-                  </h4>
-                  <p className="text-muted-foreground">Ewan na description</p>
-                </div>
-              </div>
-
-            </div>
+            <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+              Pwersa ng Kabataan
+            </h3>
+            <Image
+              src="/images/design/graphic-design/pnk-design.png"
+              alt="ewan"
+              width={800}
+              height={800}
+              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+            />
           </div>
         </div>
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Le Sserrafim's Sour Grapes Album Cover
+            </h3>
+            <Image
+              src="/images/design/graphic-design/sour-grapes-cover.png"
+              alt="ewan"
+              width={800}
+              height={800}
+              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+            />
+            <Image
+              src="/images/design/graphic-design/sour-grapes-cover-vinyl.png"
+              alt="ewan"
+              width={800}
+              height={800}
+              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+            />
+          </div>
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Strawberry Jar Label
+            </h3>
+            <Image
+              src="/images/design/graphic-design/jam-label.png"
+              alt="ewan"
+              width={800}
+              height={800}
+              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+            />
+          </div>
       </section>
     </div>
   );
