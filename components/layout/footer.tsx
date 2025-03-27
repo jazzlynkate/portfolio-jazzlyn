@@ -23,7 +23,7 @@ export function Footer() {
                   href="/graphic-branding"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Graphic & Branding
+                  Graphic Design
                 </Link>
               </li>
               <li>

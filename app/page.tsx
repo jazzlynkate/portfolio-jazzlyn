@@ -58,18 +58,18 @@ export default function HomePage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Graphic & Branding Design */}
+          {/* Graphic Design */}
           <Link href="/graphic-branding" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/images/design/sour-grapes-cover-vinyl.png"
-                alt="Graphic & Branding Design"
+                src="/images/design/graphic-design/sour-grapes-cover-vinyl.png"
+                alt="Graphic Design"
                 width={800}
                 height={600}
                 className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
-                <h3 className="text-3xl font-bold text-white mb-2">Graphic & Branding Design</h3>
+                <h3 className="text-3xl font-bold text-white mb-2">Graphic Design</h3>
                 <p className="text-white/80">Brand identity, print design, and marketing graphics</p>
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-lg">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden transition-transform group-hover:scale-105 duration-500">
                   <Image
-                    src="/images/design/stickers-cover.png"
+                    src="/images/design/graphic-design/stickers-cover.png"
                     alt="Brand Identity Project"
                     width={480}
                     height={270}

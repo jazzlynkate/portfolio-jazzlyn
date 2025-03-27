@@ -1,12 +1,37 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
+// Mock projects data
+const projects = [
+  {
+    id: 1,
+    title: "Simula ng Wakas EP Album Stickers",
+    image: "/images/design/graphic-design/stickers-cover.png",
+    slug: "stickers",
+  },
+
+  {
+    id: 2,
+    title: "Photo Quotes",
+    image: "/images/design/quotes-cover.png",
+    slug: "photo-quotes",
+  },
+
+  {
+    id: 3,
+    title: "Oddaeng Mart Branding Assets",
+    image: "/images/design/graphic-design/oddaeng-main.png",
+    slug: "oddaeng-assets",
+  },
+];
 
 export default function GraphicBrandingPage() {
   return (
     <div className="pt-20">
       <section className="container-custom section-spacing">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="heading-xl mb-6">Graphic & Branding Design</h1>
+          <h1 className="heading-xl mb-6">Graphic Design</h1>
           <p className="body-lg text-muted-foreground">
             Some of my work includes projects for non-profit organizations,
             church social media page, commisioned works, and personal projects
@@ -14,7 +39,7 @@ export default function GraphicBrandingPage() {
           </p>
         </div>
 
-        {/* Brand Identity & Print Section */}
+        {/* Graphic Design Section */}
         <div className="mb-16">
           <div className="mb-16">
             <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
@@ -25,41 +50,181 @@ export default function GraphicBrandingPage() {
               alt="ewan"
               width={800}
               height={800}
-              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+              className="max-w-[600px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
             />
           </div>
         </div>
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
             Le Sserrafim's Sour Grapes Album Cover
-            </h3>
-            <Image
-              src="/images/design/graphic-design/sour-grapes-cover.png"
-              alt="ewan"
-              width={800}
-              height={800}
-              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
-            />
-            <Image
-              src="/images/design/graphic-design/sour-grapes-cover-vinyl.png"
-              alt="ewan"
-              width={800}
-              height={800}
-              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
-            />
-          </div>
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+          </h3>
+          <Image
+            src="/images/design/graphic-design/sour-grapes-cover.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/sour-grapes-cover-vinyl.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
             Strawberry Jar Label
-            </h3>
-            <Image
-              src="/images/design/graphic-design/jam-label.png"
-              alt="ewan"
-              width={800}
-              height={800}
-              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
-            />
-          </div>
+          </h3>
+          <Image
+            src="/images/design/graphic-design/jam-label.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Concert Wristband
+          </h3>
+          <Image
+            src="/images/design/graphic-design/wristband.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+
+        {/* STICKERS */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            "Simula ng Wakas" EP Album Stickers
+          </h3>
+          <section className="container-custom max-w-[710px] w-full h-full">
+            {(() => {
+              const project = projects.find((p) => p.id === 1);
+
+              return project ? (
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <Image
+                    src={
+                      project.image ||
+                      "/images/design/graphic-design/stickers-cover.png"
+                    }
+                    alt={project.title || "Stickers"}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
+                  <div className="flex justify-center mt-6">
+                    <Button asChild>
+                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
+                        View Project
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              ) : null;
+            })()}
+          </section>
+        </div>
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Marcid Blue's 20th Anniversary
+          </h3>
+          <Image
+            src="/images/design/graphic-design/marcid-anniv.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+
+        {/* PHOTO QUOTES */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Photo Quotes
+          </h3>
+          <section className="container-custom max-w-[710px] w-full h-full">
+            {(() => {
+              const project = projects.find((p) => p.id === 2);
+
+              return project ? (
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <Image
+                    src={project.image || "/images/design/quotes-cover.png"}
+                    alt={project.title || "Photo Quotes"}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
+                  <div className="flex justify-center mt-6">
+                    <Button asChild>
+                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
+                        View Project
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              ) : null;
+            })()}
+          </section>
+        </div>
+
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Event Countdown Post
+          </h3>
+          <Image
+            src="/images/design/graphic-design/event-cd-1.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/event-cd-2.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+
+        {/* MART MATERIALS */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+          Oddaeng Mart Branding Assets
+          </h3>
+          <section className="container-custom max-w-[550px] w-full h-full">
+            {(() => {
+              const project = projects.find((p) => p.id === 3);
+
+              return project ? (
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <Image
+                    src={project.image || "/images/design/graphic-design/oddaeng-main.png"}
+                    alt={project.title || "Oddaeng Mart Branding Assets"}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
+                  <div className="flex justify-center mt-6">
+                    <Button asChild>
+                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
+                        View Project
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              ) : null;
+            })()}
+          </section>
+        </div>
       </section>
     </div>
   );

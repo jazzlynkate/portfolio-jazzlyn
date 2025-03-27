@@ -14,7 +14,7 @@ export function Navigation() {
 
   const routes = [
     { name: "Home", path: "/" },
-    { name: "Graphic & Branding", path: "/graphic-branding" },
+    { name: "Graphic Design", path: "/graphic-branding" },
     { name: "UI/UX & Web", path: "/ui-ux-web" },
     { name: "Photography", path: "/photography" },
     { name: "Video & Motion", path: "/video-motion" },
