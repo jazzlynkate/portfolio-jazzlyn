@@ -33,8 +33,8 @@ export default function VideoMotionPage() {
   return (
     <div className="pt-20">
       <section className="container-custom section-spacing">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="heading-xl mb-6">Video & Motion Graphics</h1>
+        <div className="mx-auto text-center mb-16">
+          <h1 className="heading-xl mb-12">Video & Motion Graphics</h1>
           <p className="body-lg text-muted-foreground">
             Creating engaging video content and dynamic motion graphics using
             After Effects and Premiere Pro.
@@ -45,9 +45,6 @@ export default function VideoMotionPage() {
         <div className="mb-20">
           <h2 className="heading-lg mb-10 relative">
             Projects
-            <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">
-              01
-            </span>
           </h2>
 
           <div className="grid gap-16">

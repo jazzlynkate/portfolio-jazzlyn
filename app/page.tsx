@@ -32,7 +32,7 @@ export default function HomePage() {
             <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-muted rounded-full opacity-50"></div>
             <div className="relative z-10 aspect-square bg-muted rounded-2xl overflow-hidden border border-border">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/images/design/A7C09076.JPG?height=600&width=600"
                 alt="Jazzlyn Kate"
                 width={600}
                 height={600}
