@@ -305,13 +305,14 @@ export default function HomePage() {
             </div>
           </div>
           <div>
-            <form className="flex flex-col gap-8">
+            <form className="flex flex-col gap-8" action="https://getform.io/f/adrnmdxa" method="POST">
               <div>
                 <label htmlFor="name" className="block text-lg mb-2 font-medium">
                   Name
                 </label>
                 <input
                   id="name"
+                  name="name"
                   type="text"
                   className="w-full border-b-2 border-input py-3 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors"
                 />
@@ -322,6 +323,7 @@ export default function HomePage() {
                 </label>
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   className="w-full border-b-2 border-input py-3 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors"
                 />
@@ -332,6 +334,7 @@ export default function HomePage() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={4}
                   className="w-full border-b-2 border-input py-3 text-xl bg-transparent focus:outline-none focus:border-primary transition-colors"
                 ></textarea>

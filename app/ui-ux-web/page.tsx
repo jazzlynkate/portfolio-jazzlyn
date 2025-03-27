@@ -67,7 +67,7 @@ export default function UiUxWebPage() {
         {/* Case Studies & Components Section */}
         <div className="mb-24">
           <h2 className="heading-lg mb-10 relative">
-            Case Studies & Components
+           Web & App Design
             <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">01</span>
           </h2>
 
