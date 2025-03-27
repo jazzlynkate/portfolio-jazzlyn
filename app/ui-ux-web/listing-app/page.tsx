@@ -5,7 +5,7 @@ export default function PhotographyPage() {
     <div className="pt-20">
       <section className="container-custom section-spacing">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="heading-lg mb-6">Property Listing App</h1>
+          <h1 className="heading-lg mb-6">Property Listing App (Browsing Page)</h1>
           <p className="body-lg text-muted-foreground">
           These pages in this app primarily focus on browsing, filtering, and viewing property details, helping users find homes or rental spaces that best suit their needs. Users can easily explore listings, check essential details, and connect with property owners or agents.
           </p>

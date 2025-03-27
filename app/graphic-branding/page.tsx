@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     id: 1,
-    title: "Simula ng Wakas EP Album Stickers",
+    title: "Simula ng Wakas EP Stickers",
     image: "/images/design/graphic-design/stickers-cover.png",
     slug: "stickers",
   },
@@ -108,7 +108,7 @@ export default function GraphicBrandingPage() {
         {/* STICKERS */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-            "Simula ng Wakas" EP Album Stickers
+            "Simula ng Wakas" EP Stickers
           </h3>
           <section className="container-custom max-w-[710px] w-full h-full">
             {(() => {

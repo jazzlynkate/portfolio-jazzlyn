@@ -144,7 +144,7 @@ export default function HomePage() {
               <div>
                 <span className="text-8xl font-bold text-muted/30 group-hover:text-muted/50 transition-colors">01</span>
                 <h3 className="text-4xl font-bold mb-6 -mt-8 group-hover:translate-x-2 transition-transform">
-                  Brand Identity for XYZ
+                EP Stickers
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
                   Complete brand identity including logo design, color palette, typography, and brand guidelines.
@@ -155,7 +155,7 @@ export default function HomePage() {
                   size="lg"
                   className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                 >
-                  <Link href="/graphic-branding/brand-identity">View Project</Link>
+                  <Link href="/graphic-branding/stickers">View Project</Link>
                 </Button>
               </div>
               <div className="overflow-hidden rounded-lg">
@@ -178,7 +178,7 @@ export default function HomePage() {
               <div className="md:col-start-2">
                 <span className="text-8xl font-bold text-muted/30 group-hover:text-muted/50 transition-colors">02</span>
                 <h3 className="text-4xl font-bold mb-6 -mt-8 group-hover:translate-x-2 transition-transform">
-                  Beauty Brand Landing Page
+                  Photo Quotes
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
                   UI/UX design for a beauty brand's landing page, focusing on conversion and user experience.
@@ -189,7 +189,7 @@ export default function HomePage() {
                   size="lg"
                   className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                 >
-                  <Link href="/ui-ux-web/beauty-brand">View Project</Link>
+                  <Link href="graphic-branding/photo-quotes">View Project</Link>
                 </Button>
               </div>
               <div className="overflow-hidden rounded-lg md:col-start-1">
@@ -212,7 +212,7 @@ export default function HomePage() {
               <div>
                 <span className="text-8xl font-bold text-muted/30 group-hover:text-muted/50 transition-colors">03</span>
                 <h3 className="text-4xl font-bold mb-6 -mt-8 group-hover:translate-x-2 transition-transform">
-                  Brand Ad Video
+                 Freshlight Marketing Assets
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
                   Social media advertisement video with motion graphics and visual effects for a lifestyle brand.
@@ -223,7 +223,7 @@ export default function HomePage() {
                   size="lg"
                   className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                 >
-                  <Link href="/video-motion/brand-ad">View Project</Link>
+                  <Link href="/graphic-branding/freshlight-assets">View Project</Link>
                 </Button>
               </div>
               <div className="overflow-hidden rounded-lg">
