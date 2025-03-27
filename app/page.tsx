@@ -229,7 +229,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-lg">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden transition-transform group-hover:scale-105 duration-500">
                   <Image
-                    src="/images/design/freshlight-cover.png"
+                    src="/images/design/graphic-design/freshlight-cover.png"
                     alt="Video Project"
                     width={480}
                     height={270}

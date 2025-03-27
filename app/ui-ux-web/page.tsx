@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Listing App Browsing Page",
+    title: "Property Listing App Browsing Page",
     description: "UI design for a property listing app's browsing page with filtering and sorting capabilities.",
     category: "Case Studies & Components",
     subcategory: "Listing App (Browsing Page)",
@@ -131,9 +131,9 @@ export default function UiUxWebPage() {
             </div>
           </div>
 
-          {/* Listing App (Browsing Page) */}
+          {/* Property Listing App (Browsing Page) */}
           <div>
-            <h3 className="text-2xl font-bold mb-8">Listing App (Browsing Page)</h3>
+            <h3 className="text-2xl font-bold mb-8">Property Listing App (Browsing Page)</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {groupedProjects["Case Studies & Components"]["Listing App (Browsing Page)"]?.map((project) => (
                 <Link
