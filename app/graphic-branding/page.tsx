@@ -38,7 +38,7 @@ export default function GraphicBrandingPage() {
     <div className="pt-20">
       <section className="container-custom section-spacing">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="heading-xl mb-6">Graphic Design</h1>
+          <h1 className="heading-xl mb-12">Graphic Design</h1>
           <p className="body-lg text-muted-foreground">
           My work includes projects for non-profits, church social media pages, commissioned designs, practice works, and personal projects made for fun!
           </p>

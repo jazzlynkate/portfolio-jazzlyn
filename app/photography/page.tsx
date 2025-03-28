@@ -31,7 +31,7 @@ export default function PhotographyPage() {
     <div className="pt-20">
       <section className="container-custom section-spacing">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="heading-xl mb-6">Photography</h1>
+          <h1 className="heading-xl mb-12">Photography</h1>
           <p className="body-lg text-muted-foreground">
             Capturing and enhancing special moments through professional photo
             editing and color grading.
