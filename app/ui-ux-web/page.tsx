@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     title: "Beauty Brand Landing Page",
-    description: "UI/UX design for a beauty brand's landing page, focusing on conversion and user experience.",
+    description: "UI/UX design for a beauty brand's landing page, using fun pastel colors and showcasing featured products and their details.",
     category: "Case Studies & Components",
     subcategory: "Beauty Brand Landing Page",
     image: "/images/design/web-design-cover-1.png",
