@@ -60,7 +60,7 @@ export default function UiUxWebPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-6">UI/UX & Web Design</h1>
           <p className="body-lg text-muted-foreground">
-            Creating intuitive and engaging digital experiences through thoughtful interface and interaction design.
+           Creating intuitive and engaging digital experiences through wireframing and user-focused interfaces.
           </p>
         </div>
 

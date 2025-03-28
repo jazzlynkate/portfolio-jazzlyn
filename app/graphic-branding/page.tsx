@@ -40,9 +40,7 @@ export default function GraphicBrandingPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-6">Graphic Design</h1>
           <p className="body-lg text-muted-foreground">
-            Some of my work includes projects for non-profit organizations,
-            church social media page, commisioned works, and personal projects
-            created for fun!
+          My work includes projects for non-profits, church social media pages, commissioned designs, practice works, and personal projects made for fun!
           </p>
         </div>
 

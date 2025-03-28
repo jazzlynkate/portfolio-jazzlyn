@@ -7,7 +7,7 @@ export default function PhotoQuotesPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-lg mb-6">Photo Quotes</h1>
           <p className="body-lg text-muted-foreground">
-          QUOTES QUOTES
+          A set of photo quotes using free stock images and various font styles. Each quote is paired with a fitting font to match its message, while the images and textures enhance the overall visual appeal.
           </p>
         </div>
 
@@ -20,7 +20,7 @@ export default function PhotoQuotesPage() {
               alt="Photo Quote"
               width={800}
               height={600}
-              className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 rounded-xl mb-5 mx-auto"
+              className="max-w-[500px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 rounded-xl mb-5 mx-auto"
             />
           ))}
         </div>

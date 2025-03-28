@@ -32,7 +32,7 @@ export default function HomePage() {
             <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-muted rounded-full opacity-50"></div>
             <div className="relative z-10 aspect-square bg-muted rounded-2xl overflow-hidden border border-border">
               <Image
-                src="/images/design/A7C09076.JPG?height=600&width=600"
+                src="/images/design/my-photo.png?height=600&width=600"
                 alt="Jazzlyn Kate"
                 width={600}
                 height={600}
@@ -52,9 +52,9 @@ export default function HomePage() {
       <section id="portfolio" className="container-custom section-spacing">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-6">My Portfolio</h2>
-          <p className="body-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore my work across different design disciplines, from brand identity to motion graphics.
-          </p>
+          {/* <p className="body-lg text-muted-foreground max-w-2xl mx-auto">
+           Explore my creative work across design, web, and media.
+          </p> */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -138,7 +138,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid gap-24">
-          {/* Brand Identity Project */}
+          {/* Stickers Project */}
           <div className="group">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -147,7 +147,7 @@ export default function HomePage() {
                 EP Stickers
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
-                  Complete brand identity including logo design, color palette, typography, and brand guidelines.
+                A collection of custom stickers designed for an EP album launch, featuring song titles in a postcard-style layout. 
                 </p>
                 <Button
                   asChild
@@ -172,7 +172,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* UI/UX Project */}
+          {/* Photo Quotes Project */}
           <div className="group">
             <div className="grid md:grid-cols-2 gap-12 items-center md:grid-flow-dense">
               <div className="md:col-start-2">
@@ -181,7 +181,7 @@ export default function HomePage() {
                   Photo Quotes
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
-                  UI/UX design for a beauty brand's landing page, focusing on conversion and user experience.
+                 A collection of photo quotes using free stock images and well-matched fonts.
                 </p>
                 <Button
                   asChild
@@ -215,7 +215,7 @@ export default function HomePage() {
                  Freshlight Marketing Assets
                 </h3>
                 <p className="text-xl text-muted-foreground mb-8">
-                  Social media advertisement video with motion graphics and visual effects for a lifestyle brand.
+                 A set of social media marketing materials for Freshlight. Designed to promote hair color products with a playful and trendy aesthetic.
                 </p>
                 <Button
                   asChild

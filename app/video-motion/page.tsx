@@ -8,8 +8,8 @@ import { Play } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Bible Verse Motion Graphics",
-    description: "A Bible verse motion graphic featuring animated text with a soft bokeh overlay and subtle movement of the background images.",
+    title: "Bible Verse",
+    description: "A Bible verse video featuring animated text with a soft bokeh overlay and subtle movement of the background images.",
     category: "Motion Graphics",
     subcategory: "Bible Verse Video",
     image: "/images/design/video-cover.png",
@@ -36,8 +36,7 @@ export default function VideoMotionPage() {
         <div className="mx-auto text-center mb-16">
           <h1 className="heading-xl mb-12">Video & Motion Graphics</h1>
           <p className="body-lg text-muted-foreground">
-            Creating engaging video content and dynamic motion graphics using
-            After Effects and Premiere Pro.
+          Creating video content for predebut shoots, events, and social media,<br/>using After Effects and Premiere Pro.
           </p>
         </div>
 
@@ -86,7 +85,7 @@ export default function VideoMotionPage() {
           </div>
         </div>
         {/* Process Section */}
-        <div>
+        {/* <div>
           <h2 className="heading-lg mb-10 relative">
             Process
             <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">
@@ -130,7 +129,7 @@ export default function VideoMotionPage() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );
