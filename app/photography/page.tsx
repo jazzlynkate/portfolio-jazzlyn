@@ -16,7 +16,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Prenup Wedding Photography",
+    title: "Prenup Photography",
     description:
       "Prenup wedding photo editing, enhancing images captured in meaningful locations that reflect the couple's journey.",
     category: "Lightroom Editing",
