@@ -52,13 +52,6 @@ export default function PhotographyPage() {
 
         {/* Lightroom Editing Section */}
         <div>
-          <h2 className="heading-lg mb-10 relative">
-            A & M Prenup Photos
-            <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">
-              01
-            </span>
-          </h2>
-
           {/* Photo Grid */}
           <div className="grid gap-6">
             {/* 1st Row */}
