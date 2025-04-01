@@ -46,7 +46,7 @@ export default function PhotographyPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-6">Prenup Photography</h1>
           <p className="body-lg text-muted-foreground">
-          Enhancing the couple's elegance and the beauty of their special places through editing.
+          Capturing the love story, enhancing the photos of their shared moments and cherished locations.
           </p>
         </div>
 
