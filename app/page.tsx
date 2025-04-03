@@ -294,7 +294,7 @@ export default function HomePage() {
             Feel free to reach out!
             </p>
             <div className="flex flex-col gap-6">
-              <a href="#" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
+              <a href="mailto:katejazzlyn@gmail.com" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">
                 <Mail className="h-6 w-6 group-hover:scale-110 transition-transform" />
                 <span className="link-underline">katejazzlyn@gmail.com</span>
               </a>

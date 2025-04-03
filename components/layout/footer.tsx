@@ -52,7 +52,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-medium mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="mailto:katejazzlyn@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Mail className="h-6 w-6" />
                 <span className="sr-only">Email</span>
               </a>
