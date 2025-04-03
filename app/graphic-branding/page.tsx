@@ -40,7 +40,9 @@ export default function GraphicBrandingPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-xl mb-12">Graphic Design</h1>
           <p className="body-lg text-muted-foreground">
-          My work includes projects for non-profits, church social media pages, commissioned designs, practice works, and personal projects made for fun!
+            My work includes projects for non-profits, church social media
+            pages, commissioned designs, practice works, and personal projects
+            made for fun!
           </p>
         </div>
 
@@ -189,21 +191,28 @@ export default function GraphicBrandingPage() {
             alt="ewan"
             width={800}
             height={800}
-            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
           />
           <Image
             src="/images/design/graphic-design/event-cd-2.png"
             alt="ewan"
             width={800}
             height={800}
-            className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/event-cd-3.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
           />
         </div>
 
         {/* MART MATERIALS */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-          Oddaeng Mart Branding Assets
+            Oddaeng Mart Branding Assets
           </h3>
           <section className="container-custom max-w-[550px] w-full h-full">
             {(() => {
@@ -212,7 +221,10 @@ export default function GraphicBrandingPage() {
               return project ? (
                 <div className="bg-card border border-border rounded-lg p-8">
                   <Image
-                    src={project.image || "/images/design/graphic-design/oddaeng-main.png"}
+                    src={
+                      project.image ||
+                      "/images/design/graphic-design/oddaeng-main.png"
+                    }
                     alt={project.title || "Oddaeng Mart Branding Assets"}
                     width={800}
                     height={450}
@@ -231,11 +243,10 @@ export default function GraphicBrandingPage() {
           </section>
         </div>
 
-        
         {/* FRESHLIGHT */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-          Freshlight Marketing Assets
+            Freshlight Marketing Assets
           </h3>
           <section className="container-custom max-w-[710px] w-full h-full">
             {(() => {
@@ -244,7 +255,10 @@ export default function GraphicBrandingPage() {
               return project ? (
                 <div className="bg-card border border-border rounded-lg p-8">
                   <Image
-                    src={project.image || "/images/design/graphic-design/freshlight-cover.png"}
+                    src={
+                      project.image ||
+                      "/images/design/graphic-design/freshlight-cover.png"
+                    }
                     alt={project.title || "Freshlight Marketing Assets"}
                     width={800}
                     height={450}

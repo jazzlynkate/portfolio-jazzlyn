@@ -16,7 +16,7 @@ export default function HomePage() {
 
             </div>
             <p className="body-lg text-muted-foreground max-w-md">
-            — passionate about design and crafting solutions. I love working on projects that help businesses and individuals create meaningful and engaging digital experiences.
+            I love working on projects that explore different forms of digital media, helping businesses and individuals create engaging digital materials while continuously learning new skills.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="text-lg px-8">
