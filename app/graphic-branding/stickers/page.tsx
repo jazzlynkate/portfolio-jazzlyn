@@ -20,7 +20,7 @@ export default function StickersPage() {
               alt="Resume Scorer Wireframe"
               width={800}
               height={600}
-              className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 rounded-xl mb-[-15px] mx-auto"
+              className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 rounded-xl mb-[-15px] mx-auto"
             />
           ))}
         </div>
