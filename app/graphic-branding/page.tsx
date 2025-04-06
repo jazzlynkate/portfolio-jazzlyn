@@ -57,7 +57,7 @@ export default function GraphicBrandingPage() {
         {/* AMAZON */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-           Amazon Content
+           Amazon
           </h3>
           <section className="container-custom max-w-[710px] w-full h-full">
             {(() => {
@@ -125,7 +125,41 @@ export default function GraphicBrandingPage() {
             className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
           />
         </div>
-        
+
+                {/* FRESHLIGHT */}
+                <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Freshlight Marketing Assets
+          </h3>
+          <section className="container-custom max-w-[710px] w-full h-full">
+            {(() => {
+              const project = projects.find((p) => p.id === 4);
+
+              return project ? (
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <Image
+                    src={
+                      project.image ||
+                      "/images/design/graphic-design/freshlight-cover.png"
+                    }
+                    alt={project.title || "Freshlight Marketing Assets"}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
+                  <div className="flex justify-center mt-6">
+                    <Button asChild>
+                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
+                        View Project
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              ) : null;
+            })()}
+          </section>
+        </div>
+
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
             Le Sserrafim's Sour Grapes Album Cover
@@ -279,40 +313,6 @@ export default function GraphicBrandingPage() {
                       "/images/design/graphic-design/oddaeng-main.png"
                     }
                     alt={project.title || "Oddaeng Mart Branding Assets"}
-                    width={800}
-                    height={450}
-                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
-                  />
-                  <div className="flex justify-center mt-6">
-                    <Button asChild>
-                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
-                        View Project
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-              ) : null;
-            })()}
-          </section>
-        </div>
-
-        {/* FRESHLIGHT */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-            Freshlight Marketing Assets
-          </h3>
-          <section className="container-custom max-w-[710px] w-full h-full">
-            {(() => {
-              const project = projects.find((p) => p.id === 4);
-
-              return project ? (
-                <div className="bg-card border border-border rounded-lg p-8">
-                  <Image
-                    src={
-                      project.image ||
-                      "/images/design/graphic-design/freshlight-cover.png"
-                    }
-                    alt={project.title || "Freshlight Marketing Assets"}
                     width={800}
                     height={450}
                     className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
