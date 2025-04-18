@@ -289,8 +289,9 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-2xl leading-relaxed mb-10">
-            I'm always open to new opportunities to learn, grow, and expand my skills! (Kasi malayo pa, pero malayo pa rin hehe)
-            <br />
+            I'm always open to new opportunities to learn, grow, and expand my skills! (kasi malayo pa, pero malayo pa rin hehe)
+            </p>
+            <p className="text-2xl leading-relaxed">
             Feel free to reach out!
             </p>
             <div className="flex flex-col gap-6">
