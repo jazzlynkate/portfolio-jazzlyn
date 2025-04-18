@@ -289,7 +289,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-2xl leading-relaxed mb-10">
-            I'm always open to new opportunities to learn, grow, and expand my skills.
+            I'm always open to new opportunities to learn, grow, and expand my skills! (Kasi malayo pa, pero malayo pa rin hehe)
             <br />
             Feel free to reach out!
             </p>
