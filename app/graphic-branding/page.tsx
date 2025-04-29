@@ -88,6 +88,37 @@ export default function GraphicBrandingPage() {
           </section>
         </div>
 
+        {/* PHOTO QUOTES */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+            Photo Quotes
+          </h3>
+          <section className="container-custom max-w-[710px] w-full h-full">
+            {(() => {
+              const project = projects.find((p) => p.id === 2);
+
+              return project ? (
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <Image
+                    src={project.image || "/images/design/quotes-cover.png"}
+                    alt={project.title || "Photo Quotes"}
+                    width={800}
+                    height={450}
+                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
+                  />
+                  <div className="flex justify-center mt-6">
+                    <Button asChild>
+                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
+                        View Project
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              ) : null;
+            })()}
+          </section>
+        </div>
+
         <div className="mb-16">
           <div className="mb-16">
             <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
@@ -105,7 +136,7 @@ export default function GraphicBrandingPage() {
 
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-           Illustrated Design Concepts for Matcha Mug and Paper Bag
+            Illustrated Design Concepts for Matcha Mug and Paper Bag
           </h3>
           <Image
             src="/images/design/graphic-design/matcha-bag.png"
@@ -114,7 +145,7 @@ export default function GraphicBrandingPage() {
             height={800}
             className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
           />
-                    <Image
+          <Image
             src="/images/design/graphic-design/matcha-mug.png"
             alt="ewan"
             width={800}
@@ -214,39 +245,35 @@ export default function GraphicBrandingPage() {
           </section>
         </div>
 
-        {/* PHOTO QUOTES */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-            Photo Quotes
+            Event Countdown Post
           </h3>
-          <section className="container-custom max-w-[710px] w-full h-full">
-            {(() => {
-              const project = projects.find((p) => p.id === 2);
-
-              return project ? (
-                <div className="bg-card border border-border rounded-lg p-8">
-                  <Image
-                    src={project.image || "/images/design/quotes-cover.png"}
-                    alt={project.title || "Photo Quotes"}
-                    width={800}
-                    height={450}
-                    className="w-full object-cover transition-transform group-hover:scale-105 duration-500"
-                  />
-                  <div className="flex justify-center mt-6">
-                    <Button asChild>
-                      <Link href={`/graphic-branding/${project.slug || "#"}`}>
-                        View Project
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-              ) : null;
-            })()}
-          </section>
+          <Image
+            src="/images/design/graphic-design/event-cd-1.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/event-cd-2.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/event-cd-3.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
         </div>
 
-                {/* FRESHLIGHT */}
-                <div className="mb-16">
+        {/* FRESHLIGHT */}
+        <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
             Freshlight Marketing Assets
           </h3>
@@ -277,33 +304,6 @@ export default function GraphicBrandingPage() {
               ) : null;
             })()}
           </section>
-        </div>
-
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-            Event Countdown Post
-          </h3>
-          <Image
-            src="/images/design/graphic-design/event-cd-1.png"
-            alt="ewan"
-            width={800}
-            height={800}
-            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
-          />
-          <Image
-            src="/images/design/graphic-design/event-cd-2.png"
-            alt="ewan"
-            width={800}
-            height={800}
-            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
-          />
-          <Image
-            src="/images/design/graphic-design/event-cd-3.png"
-            alt="ewan"
-            width={800}
-            height={800}
-            className="max-w-[440px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
-          />
         </div>
 
         {/* MART MATERIALS */}

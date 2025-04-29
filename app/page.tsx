@@ -62,7 +62,7 @@ export default function HomePage() {
           <Link href="/graphic-branding" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/images/design/graphic-design/marcid-anniv.png"
+                src="/images/design/graphic-design/jam-label.png"
                 alt="Graphic Design"
                 width={800}
                 height={600}
@@ -289,10 +289,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-2xl leading-relaxed mb-10">
-            I'm always open to new opportunities to learn, grow, and expand my skills! (kasi malayo pa, pero malayo pa rin hehe)
-            </p>
-            <p className="text-2xl leading-relaxed">
-            Feel free to reach out!
+            I'm always open to new opportunities to learn, grow, and expand my skills.<br/>Feel free to reach out!
             </p>
             <div className="flex flex-col gap-6">
               <a href="mailto:katejazzlyn@gmail.com" className="flex items-center gap-4 text-xl text-muted-foreground hover:text-foreground group">

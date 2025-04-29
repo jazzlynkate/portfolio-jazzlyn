@@ -13,7 +13,7 @@ export default function PhotoQuotesPage() {
 
         {/*Stickers Section */}
         <div>
-          {Array(9).fill(null).map((_, index) => (
+          {Array(17).fill(null).map((_, index) => (
             <Image
               key={index}
               src={`/images/design/graphic-design/photo-quotes/quotes-${index + 1}.png`}

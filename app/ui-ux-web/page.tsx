@@ -165,7 +165,7 @@ export default function UiUxWebPage() {
         {/* Wireframes & Prototypes Section */}
         <div>
           <h2 className="heading-lg mb-10 relative">
-            Wireframes
+            Wireframe
             <span className="absolute -z-10 text-[8rem] font-bold text-muted/20 -top-16 -left-6 opacity-80">02</span>
           </h2>
 
