@@ -18,8 +18,8 @@ const projects = [
     description: "An online store for buying items from Korea, mostly BTS merch and collectibles.",
     category: "Case Studies & Components",
     subcategory: "K2PH Ecommerce Site",
-    image: "/images/design/ui-ux-design/ecommerce/desktop-items.png",
-    slug: "k2ph-site",
+    image: "/images/design/ui-ux-design/ecommerce/ecommerce-1.png",
+    slug: "ecommerce",
   },
   {
     id: 3,
