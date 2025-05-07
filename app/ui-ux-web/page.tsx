@@ -14,7 +14,16 @@ const projects = [
   },
   {
     id: 2,
-    title: "Traffic Enforcer App UI",
+    title: "K2PH Ecommerce Site",
+    description: "An online store for buying items from Korea, mostly BTS merch and collectibles.",
+    category: "Case Studies & Components",
+    subcategory: "K2PH Ecommerce Site",
+    image: "/images/design/ui-ux-design/ecommerce/desktop-items.png",
+    slug: "k2ph-site",
+  },
+  {
+    id: 3,
+    title: "Traffic Enforcer App",
     description: "Mobile app interface design for traffic enforcers to streamline violation reporting.",
     category: "Case Studies & Components",
     subcategory: "Traffic Enforcer App UI",
@@ -22,7 +31,7 @@ const projects = [
     slug: "traffic-enforcer-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Property Listing App Browsing Page",
     description: "UI design for a property listing app's browsing page with filtering and sorting capabilities.",
     category: "Case Studies & Components",
@@ -31,7 +40,7 @@ const projects = [
     slug: "listing-app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Resume Scorer Wireframe",
     description: "Mid-fidelity wireframes for a resume scoring web application.",
     category: "Wireframes & Prototypes",
@@ -76,6 +85,36 @@ export default function UiUxWebPage() {
             <h3 className="text-2xl font-bold mb-8">Beauty Brand Landing Page</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {groupedProjects["Case Studies & Components"]["Beauty Brand Landing Page"]?.map((project) => (
+                <Link
+                  key={project.id}
+                  href={`/ui-ux-web/${project.slug}`}
+                  className="group block bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+                >
+                  <div className="aspect-video bg-muted overflow-hidden">
+                    <Image
+                      src={project.image || "/placeholder.svg"}
+                      alt={project.title}
+                      width={800}
+                      height={450}
+                      className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
+                      {project.title}
+                    </h4>
+                    <p className="text-muted-foreground">{project.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* K2PH */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold mb-8">K2PH Ecommerce Site</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              {groupedProjects["Case Studies & Components"]["K2PH Ecommerce Site"]?.map((project) => (
                 <Link
                   key={project.id}
                   href={`/ui-ux-web/${project.slug}`}
