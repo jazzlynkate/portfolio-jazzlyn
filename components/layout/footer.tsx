@@ -11,7 +11,7 @@ export function Footer() {
               Jazzlyn<span className="text-muted-foreground">Kate</span>
             </Link>
             <p className="mt-4 text-muted-foreground">
-              Designer focused on social media marketing materials, UI/UX design, and other multimedia content.
+            <i>— a person who finds joy in designing and learning new things :)</i>
             </p>
           </div>
 

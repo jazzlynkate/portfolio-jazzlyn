@@ -211,6 +211,19 @@ export default function GraphicBrandingPage() {
           />
         </div>
 
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+           Poster
+          </h3>
+          <Image
+            src="/images/design/graphic-design/random-poster/poster-1.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+
         {/* STICKERS */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
