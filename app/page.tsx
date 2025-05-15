@@ -62,7 +62,7 @@ export default function HomePage() {
           <Link href="/graphic-branding" className="group">
             <div className="relative overflow-hidden rounded-lg aspect-[4/3]">
               <Image
-                src="/images/design/graphic-design/jam-label.png"
+                src="/images/design/graphic-design/sour-grapes-cover-vinyl.png"
                 alt="Graphic Design"
                 width={800}
                 height={600}
