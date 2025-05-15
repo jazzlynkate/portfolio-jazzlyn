@@ -36,7 +36,7 @@ export default function VideoMotionPage() {
         <div className="mx-auto text-center mb-16">
           <h1 className="heading-xl mb-12">Video & Motion Graphics</h1>
           <p className="body-lg text-muted-foreground">
-          Creating video content for predebut shoots, events, and social media,<br/>using After Effects and Premiere Pro.
+          Creating video content for predebut shoots and social media posts,<br/>using After Effects and Premiere Pro.
           </p>
         </div>
 
