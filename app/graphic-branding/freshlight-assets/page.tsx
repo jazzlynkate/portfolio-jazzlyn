@@ -9,7 +9,7 @@ export default function FreshlightAssetsPage() {
           Freshlight<br />Marketing Assets
           </h1>
           <p className="body-lg text-muted-foreground">
-          This practice project features a series of social media and e-commerce visuals designed to showcase Freshlight’s hair dye products in an engaging and informative way. The key visual uses a balanced, Harajuku-inspired aesthetic with vibrant colors and dreamy elements to create a playful yet stylish look. Social media designs, including Instagram stories and product posts, focus on helping users find their ideal shade through clear visuals and call-to-actions.<br />E-commerce thumbnails are designed in both minimalistic and branded styles, ensuring versatility across platforms while maintaining brand recognition.
+          This practice project features a series of social media and e-commerce visuals designed to showcase Freshlight’s hair dye products in an engaging and informative way. The key visual uses a balanced, Harajuku-inspired aesthetic with vibrant colors and dreamy elements. Social media designs, including Instagram stories and product posts, focus on helping users find their ideal shade through clear visuals and call-to-actions. E-commerce thumbnails are designed in both minimalistic and branded styles, ensuring versatility across platforms while maintaining brand recognition.
           </p>
         </div>
 

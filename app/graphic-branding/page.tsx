@@ -232,6 +232,13 @@ export default function GraphicBrandingPage() {
             alt="ewan"
             width={800}
             height={800}
+            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
+          />
+          <Image
+            src="/images/design/graphic-design/random-poster/poster-2.png"
+            alt="ewan"
+            width={800}
+            height={800}
             className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
           />
         </div>

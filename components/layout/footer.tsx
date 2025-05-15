@@ -11,7 +11,6 @@ export function Footer() {
               Jazzlyn<span className="text-muted-foreground">Kate</span>
             </Link>
             <p className="mt-4 text-muted-foreground">
-            <i>— a person who finds joy in designing and learning new things :)</i>
             </p>
           </div>
 

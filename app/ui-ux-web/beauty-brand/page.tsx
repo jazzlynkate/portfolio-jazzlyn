@@ -7,7 +7,7 @@ export default function PhotographyPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-lg mb-6">Beauty Brand Landing Page</h1>
           <p className="body-lg text-muted-foreground">
-          This is a practice landing page designed for a conceptual skincare brand. The "Bloom" logo and product designs are also part of my practice work. The page features best-selling products, customer reviews, and an FAQ section to help users learn more about the brand. The goal is to create an engaging and user-friendly experience that highlights the products' key benefits and encourages exploration.
+          This is a practice landing page created for a conceptual skincare brand called "Bloom." Both the logo and product designs were made solely for this design exercise. The page showcases best-selling products, customer reviews, and a helpful FAQ section to inform users about the brand. The main objective is to deliver an engaging, user-friendly experience that highlights the key benefits of the products and encourages visitors to explore further.
           </p>
         </div>
 
