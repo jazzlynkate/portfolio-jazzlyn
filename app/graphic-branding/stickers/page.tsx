@@ -7,7 +7,7 @@ export default function StickersPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-lg mb-6">"Simula ng Wakas" EP Stickers</h1>
           <p className="body-lg text-muted-foreground">
-          These stickers were created as a freebie for the EP launch, featuring all the song titles in a vibrant, postcard-style design, and each sticker has a unique vibe inspired by the music. Special thanks to Christine Cheng for the stunning typography design!
+          These stickers feature all the song titles in a vibrant, postcard-style design, and each sticker has a unique vibe inspired by the music. Special thanks to Christine Cheng for the stunning typography design!
           </p>
         </div>
 

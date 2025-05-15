@@ -7,7 +7,7 @@ export default function PhotoQuotesPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-lg mb-6">Photo Quotes</h1>
           <p className="body-lg text-muted-foreground">
-          A set of photo quotes using free stock images and various font styles. Each quote is paired with a fitting font to match its message, while the images and textures enhance the overall visual appeal.
+          A collection of photo quotes using free stock images and well-matched fonts, with each quote paired with visuals and typography that reflect its message.
           </p>
         </div>
 
