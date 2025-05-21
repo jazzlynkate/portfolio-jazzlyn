@@ -185,7 +185,7 @@ export default function GraphicBrandingPage() {
           Cafe and Bakery Social Media Post
           </h3>
           <Image
-            src="/images/design/graphic-design/socmed/socmed-post-1.png"
+            src="/images/design/graphic-design/socmed/socmed-post-2.png"
             alt="ewan"
             width={800}
             height={800}
