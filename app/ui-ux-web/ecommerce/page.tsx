@@ -7,13 +7,13 @@ export default function EcommercePage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="heading-lg mb-6">K2PH Ecommerce Site</h1>
           <p className="body-lg text-muted-foreground">
-          An online store for buying items from Korea, mostly BTS merch and collectibles.
+          An ongoing e-commerce project for a seller of korean group items, primarily BTS merchandise and collectibles. The platform is intended to replace her use of Facebook group by providing a more organized and professional way to manage and sell products online.
           </p>
         </div>
 
         {/*Ecommerce Section */}
         <div>
-          {Array(3).fill(null).map((_, index) => (
+          {Array(4).fill(null).map((_, index) => (
             <Image
               key={index}
               src={`/images/design/ui-ux-design/ecommerce/ecommerce-${index + 1}.png`}

@@ -9,7 +9,7 @@ export default function AmazonListingPage() {
           Amazon
           </h1>
           <p className="body-lg text-muted-foreground">
-          This Amazon A+ Content sample features design concepts for two fictional brands — Lumina, a jewelry brand, and Somna, a weighted blanket brand. Each design reflects the look and feel of the brand and is tailored based on the product and target audience. These designs were created solely for portfolio use and are not affiliated with or available on Amazon.
+          This Amazon A+ Content sample features design concepts for two fictional brands — Lumina, a jewelry brand, and Somna, a weighted blanket brand. Each design reflects the look and feel of the brand and is tailored based on the product and target audience. These designs were created solely for portfolio use and are not available on Amazon.
 
           </p>
         </div>

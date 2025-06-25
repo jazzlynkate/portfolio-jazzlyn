@@ -179,20 +179,6 @@ export default function GraphicBrandingPage() {
           </section>
         </div>
 
-        
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
-          Cafe and Bakery Social Media Post
-          </h3>
-          <Image
-            src="/images/design/graphic-design/socmed/socmed-post-2.png"
-            alt="ewan"
-            width={800}
-            height={800}
-            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
-          />
-        </div>
-
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
             Le Sserrafim's Sour Grapes Album Cover
@@ -309,13 +295,13 @@ export default function GraphicBrandingPage() {
             height={800}
             className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl mb-8"
           />
-          <Image
+          {/* <Image
             src="/images/design/graphic-design/event-cd-3.png"
             alt="ewan"
             width={800}
             height={800}
             className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
-          />
+          /> */}
         </div>
 
         <div className="mb-16">
@@ -335,6 +321,19 @@ export default function GraphicBrandingPage() {
             width={800}
             height={800}
             className="max-w-[450px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
+          />
+        </div>
+   
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 mx-auto text-center">
+          Cafe and Bakery Social Media Post
+          </h3>
+          <Image
+            src="/images/design/graphic-design/socmed/socmed-post-2.png"
+            alt="ewan"
+            width={800}
+            height={800}
+            className="max-w-[650px] w-full h-full object-cover transition-transform group-hover:scale-105 duration-500 mx-auto rounded-xl"
           />
         </div>
 
